@@ -4,8 +4,8 @@ project "ImGui"
     cppdialect "C++17"
     staticruntime "On"
 
-    targetdir ("bin/" .. outpurdir .. "/%{prj.name}")
-    targetdir ("bin-intermediates/" .. outpurdir .. "/%{prj.name}")
+    targetdir ("bin/" .. outputdir .. "/%{prj.name}")
+    targetdir ("bin-intermediates/" .. outputdir .. "/%{prj.name}")
 
     files
     {
